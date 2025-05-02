@@ -1,16 +1,30 @@
-# weather_ap
+Weather App
+The Weather App is a simple Flutter application that displays weather conditions for cities based on data fetched from an API. The app allows users to search for a city and view detailed weather information for that city.
 
-A new Flutter project.
+Features
+City Search: Search for any city to view the weather conditions.
 
-## Getting Started
+Weather Display: Shows the city name, current time, temperature, max & min temperature, and weather conditions with a relevant image.
 
-This project is a starting point for a Flutter application.
+Automatic Theme Change: The app theme changes automatically based on the weather conditions (Sunny, Cloudy, Rainy, etc.).
 
-A few resources to get you started if this is your first Flutter project:
+Simple and Interactive UI: Clean and easy-to-use interface design.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Technologies Used
+Flutter: The framework used to build the app.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dart: The programming language used.
+
+Provider: For state management and sharing data between pages.
+
+http: For fetching data from the API.
+
+Clean Code: Ensuring clean and well-organized code.
+
+API
+The app uses an API to fetch weather data. Make sure you've set up your API key in the code.
+
+App Screenshot
+
+Contributing
+If you have any suggestions or improvements, feel free to open an Issue or submit a Pull Request.
